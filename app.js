@@ -110,5 +110,22 @@ Note: Perform case insensitive search. Whether the user  enters cookie, Cookie, 
 // document.write(result)
 
 //Write a program to display the last character of a user  input.
-var uInput =prompt("enter somethiing here");
-var res = 
+// var Input =prompt("enter something here");
+// var res = Input.charAt(Input.length-1);
+// document.write("Last Index of the string is :"+ " "+ res)
+
+
+// var userInput = prompt ("Enter something here ");
+// var result = userInput.charAt(userInput.length-1)
+// document.write(res)
+
+
+// var userInput= prompt ('dear, please enter sometthing of your choice, we are trying to display the last index from the userinput character')
+// var result = userInput.charAt(userInput.length-1);
+// document.write(`<h1> HERE'S THE LAST INDEX GOT FROM USERINPUT IS :</h1>`+ result)
+
+
+
+
+
+
