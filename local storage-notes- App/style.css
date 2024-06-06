@@ -1,46 +1,68 @@
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.contr{
-    height: 690px;
-    width: 1320px;
+body, html {
+    height: 100%;
     display: flex;
-    flex-direction: column;
-    row-gap: 35px;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
 }
-.inputemail{
-    height: 40px;
-    padding:0px 90px 0px 90px;
+
+.contr {
+    width: 90%;
+    max-width: 1320px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px; /* Ensures space between items */
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
     border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
 }
-#submitbtn{
+
+.inputemail, .inputpassword {
+    height: 40px;
+    padding: 0 30px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 300px;
+}
+
+#submitbtn {
     background-color: green;
-    padding:0px 90px 0px 90px;
-    height: 30px;
-color: aliceblue;
-border-radius: 4px ;
-
-
-}
-.inputpassword{
+    padding: 0 30px;
     height: 40px;
-    padding:0px 90px 0px 90px;
-    border-radius: 10px;
+    color: aliceblue;
+    border-radius: 4px;
+    width: 90%;
+    max-width: 200px;
+    cursor: pointer;
+    border: none;
 }
-#user_email_display{
-    color: rgb(25, 87, 110);
-}
-#logout{
-    color: chocolate;
-}
-#listItems{
-    margin-top: 30px;
-    list-style-type: decimal;
-    font-weight: bold;
+
+@media (min-width: 768px) {
+    .contr {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+    }
+
+    .inputemail, .inputpassword {
+        width: 45%;
+        padding: 0 30px;
+    }
+
+    #submitbtn {
+        width: auto;
+        padding: 0 50px;
+    }
 }
