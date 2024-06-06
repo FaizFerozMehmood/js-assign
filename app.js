@@ -125,7 +125,49 @@ Note: Perform case insensitive search. Whether the user  enters cookie, Cookie, 
 // document.write(`<h1> HERE'S THE LAST INDEX GOT FROM USERINPUT IS :</h1>`+ result)
 
 
+// var hours = document.getElementById('hours')
+// hours.style.color="red"
+
+// var mins = document.getElementById("mins")
+// mins.style.color="red"
+// var secs = document.getElementById('secs')
+// secs.style.color="red"
+
+
+// var update = setInterval(function(){
+//     var date = new Date()
+//     hours.innerText=date.getHours()+":"
+//     mins.innerText= date.getMinutes()+":"
+//     secs.innerText=date.getSeconds()
+// },1000)
+
+
+// var date = new Date()
+// date.getHours()
+// document.write(date);
+//  let myDate = new Date()
+ 
+// let mycreateddate= new Date(1,5,2003)
+// document.write(mycreateddate.toDateString)
+// var myDate = new Date()
+// var myCreatedDaate = new Date(1,5,2003)
+// document.write(myCreatedDaate.toLocaleString())
+
+
+// var date = new Date();
+// console.log( date.toString().slice(0,15))
+// console.log(date.getDay())
 
 
 
 
+var hours =document.getElementById("hours")
+var mins =document.getElementById("mins")
+var secs =document.getElementById("secs")
+
+ var update = setInterval(function(){
+    var date = new Date()
+    hours.innerText =date.getHours()
+    mins.innerText = date.getDay()
+    secs.innerText =date.getSeconds()
+},1000)

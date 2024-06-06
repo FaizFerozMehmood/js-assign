@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contr{
+    height: 690px;
+    width: 1320px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.inputemail{
+    height: 40px;
+    padding:0px 90px 0px 90px;
+    border-radius: 10px;
+}
+#submitbtn{
+    background-color: green;
+    padding:0px 90px 0px 90px;
+    height: 30px;
+color: aliceblue;
+border-radius: 4px ;
+
+
+}
+.inputpassword{
+    height: 40px;
+    padding:0px 90px 0px 90px;
+    border-radius: 10px;
+}
+#user_email_display{
+    color: rgb(25, 87, 110);
+}
+#logout{
+    color: chocolate;
+}
+#listItems{
+    margin-top: 30px;
+    list-style-type: decimal;
+    font-weight: bold;
+}
